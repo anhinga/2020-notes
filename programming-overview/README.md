@@ -59,6 +59,8 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
   
 ## Non-flat network matrix (using arbitrary V-value as a network matrix)
 
-Not implemented, but discussed in multiple places
+Not implemented, but discussed in multiple places (prompted by the desire to naturaly share common parts when deep copying network subgraphs instead of duplicating them (this should certainly be feasible if programming with immutable data).
 
-  * Initial discussion:
+  * Initial discussion: Section 2.3 (page 5) of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
+  
+  * More thoughts: 
