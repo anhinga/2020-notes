@@ -71,6 +71,6 @@ Not implemented, but discussed in multiple places (prompted by the desire to nat
   * In the general case (when not only column indices, but also row indices are hierarchical), one needs to formalize
     where in a path the row index ends and the column index starts. One should probably think about this situation in the spirit
     of Section 5.3 (page 16) of https://arxiv.org/abs/1712.07447 (more specifically, one should think about V-values as leaves of
-    V-values, so that the overall space is either V tensor product by V or V tensor product by sum of V and R. There is
+    V-values, so that the overall space is either V tensor product by V or V tensor product by sum of V and R). There is
     some interesting fairly open-ended math here.    
 
