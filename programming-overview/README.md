@@ -34,5 +34,16 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
     sparse vector, which can be maintained by a single neuron connected in such a fashion as to form an accumulator.
 
   * To accumulate a list of mouse clicks using V-values: Section 6.3 (pages 18-19) of https://arxiv.org/abs/1712.07447
+  
+  * ...
 
 ## Using self-referential mechanism
+
+  * To create a wave pattern in the network matrix: Appendix B.2 (page 6) of https://arxiv.org/abs/1706.00648 
+    ("Dataflow Matrix Machines as a Model of Computations with Linear Streams")
+    
+  * To edit a running DMM on the fly: Section 1.1 (page 3) of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
+    ("Dataflow matrix machines: recent experiments and notes for next steps")
+    
+  * To explore emerging patterns in a randomly initialized self-referential DMM: Section 1.2 (pages 3-4) of the same
+    paper, https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
