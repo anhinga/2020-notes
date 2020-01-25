@@ -26,6 +26,12 @@ https://github.com/anhinga/fluid/tree/master/Lightweight_Pure_DMMs
 
 First implementation of propagating wave pattern: https://github.com/anhinga/fluid/tree/master/Lightweight_Pure_DMMs/aug_27_16_experiment
 
+Same example in Clojure:
+
+  * https://github.com/jsa-aerial/DMM/blob/master/examples/dmm/oct_19_2016_experiment.clj 
+  
+  * https://github.com/jsa-aerial/DMM/blob/master/examples/dmm/quil-controlled/jul_6_2017_experiment.clj
+
 Also described in Appendix B.2 (page 6) of https://arxiv.org/abs/1706.00648
 
-
+## ...
