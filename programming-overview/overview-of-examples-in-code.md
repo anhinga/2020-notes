@@ -8,7 +8,7 @@ Described in https://arxiv.org/abs/1601.00713 ("Almost Continuous Transformation
   
   * dynamically changing dataflow graph: https://github.com/anhinga/fluid/tree/master/jun_28_15_experiment
 
-## First DMMs: continuous cellular automata 
+## First DMMs: continuous cellular automata (Processing)
 
   * Described in Section 4 (page 7) of https://arxiv.org/abs/1601.01050 ("Dataflow Graphs as Matrices and Programming with Higher-order Matrix Elements")
 
@@ -18,7 +18,7 @@ Described in https://arxiv.org/abs/1601.00713 ("Almost Continuous Transformation
 
   * Implementation: https://github.com/anhinga/fluid/tree/master/aug_24_15_experiment
 
-## First self-referential DMMs:
+## First self-referential DMMs (Processing and Clojure)
 
 Described in Appendix D.2 (page 6) of https://arxiv.org/abs/1610.00831
 
@@ -33,5 +33,17 @@ Same example in Clojure:
   * https://github.com/jsa-aerial/DMM/blob/master/examples/dmm/quil-controlled/jul_6_2017_experiment.clj
 
 Also described in Appendix B.2 (page 6) of https://arxiv.org/abs/1706.00648
+
+## Accumulating the list of mouse clicks (Clojure)
+
+Described in Section 6.3 (pages 18-19) of https://arxiv.org/abs/1712.07447
+
+https://github.com/jsa-aerial/DMM/blob/master/examples/dmm/quil-controlled/jul_13_2017_experiment.clj
+
+## Using self-referential facilities to edit the network on the fly (Clojure)
+
+Described in Section 1.1 (page 3) of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf 
+
+https://github.com/jsa-aerial/DMM/tree/master/examples/dmm/quil-controlled/interactive
 
 ## ...
