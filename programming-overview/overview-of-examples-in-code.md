@@ -8,6 +8,10 @@ Described in https://arxiv.org/abs/1601.00713 ("Almost Continuous Transformation
   
   * dynamically changing dataflow graph: https://github.com/anhinga/fluid/tree/master/jun_28_15_experiment
 
+Further use of this pre-DMM architecture:
+
+  * https://github.com/anhinga/fluid/tree/master/atparty-2018/surreal_webcam
+
 ## First DMMs: continuous cellular automata (Processing)
 
   * Described in Section 4 (page 7) of https://arxiv.org/abs/1601.01050 ("Dataflow Graphs as Matrices and Programming with Higher-order Matrix Elements")
