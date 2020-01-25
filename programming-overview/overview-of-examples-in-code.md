@@ -85,3 +85,7 @@ https://github.com/anhinga/synapses/blob/master/regularization.md
 https://github.com/anhinga/2019-python-drafts/tree/master/vispy/atparty-2019
 
 https://dmm.dreamwidth.org/20076.html
+
+### Prototyping small bits and pieces for the next generation of DMMs
+
+https://github.com/anhinga/2019-python-drafts
