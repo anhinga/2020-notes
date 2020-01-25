@@ -1,6 +1,6 @@
 # Overview of DMM-related examples in code
 
-## Pre-DMM dataflow animations in Processing
+## Pre-DMM dataflow animations (Processing)
 
 Described in https://arxiv.org/abs/1601.00713 ("Almost Continuous Transformations of Software and Higher-order Dataflow Programming")
 
@@ -76,16 +76,16 @@ https://github.com/anhinga/fluid/tree/master/Lightweight_Evolutionary
 
 ## Indirectly related software experiments
 
-### Regularization in intrinsically sparse networks
+### Regularization in intrinsically sparse networks (PyTorch)
 
 https://github.com/anhinga/synapses/blob/master/regularization.md
 
-### Shaders
+### Shaders (GLSL and Python/VisPy)
 
 https://github.com/anhinga/2019-python-drafts/tree/master/vispy/atparty-2019
 
 https://dmm.dreamwidth.org/20076.html
 
-### Prototyping small bits and pieces for the next generation of DMMs
+### Prototyping small bits and pieces for the next generation of DMMs (Python and JavaScript)
 
 https://github.com/anhinga/2019-python-drafts
