@@ -61,6 +61,11 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
 
 Not implemented, but discussed in multiple places (prompted by the desire to naturaly share common parts when deep copying network subgraphs instead of duplicating them (this should certainly be feasible if programming with immutable data).
 
-  * Initial discussion: Section 2.3 (page 5) of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
+  * Initial discussion lifted and condensed from e-mails: Section 2.3 (page 5) of 
+    https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
   
-  * More thoughts: 
+  * More thoughts (but I am uncertain about those thoughts, they are just something to possibly keep in mind): 
+    Section 5 (page 3) and Endnote 3 (page 4) of
+    https://github.com/anhinga/2019-design-notes/blob/master/research-notes/dmm-notes-june-2019.pdf
+
+
