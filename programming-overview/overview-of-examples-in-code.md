@@ -50,4 +50,20 @@ Described in Section 1.1 (page 3) of https://www.cs.brandeis.edu/~bukatin/dmm-no
 
 https://github.com/jsa-aerial/DMM/tree/master/examples/dmm/quil-controlled/interactive
 
-## ...
+## Randomly initialized self-referential lightweight pure DMMs (Processing)
+
+With emerging patterns, Section 1.2 (pages 3-4) of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf 
+
+https://github.com/anhinga/fluid/tree/master/atparty-2018/game_of_afterlife
+
+## Drawing with a mouse (Python)
+
+https://github.com/anhinga/population-of-directions/tree/master/drafts
+
+to be continued at https://github.com/anhinga/typed-dmms
+
+*****************************
+
+## Indirectly related software experiments
+
+
