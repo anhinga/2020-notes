@@ -47,3 +47,18 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
     
   * To explore emerging patterns in a randomly initialized self-referential DMM: Section 1.2 (pages 3-4) of the same
     paper, https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
+
+## Creating a deep copy of a network subgraph on the fly
+
+  * Pre-DMM algorithm and implementation: Section 4.3 (pages 7-8) of https://arxiv.org/abs/1601.00713 
+    ("Almost Continuous Transformations of Software and Higher-order Dataflow Programming")
+    
+  * Matrix-based formalism (not implemented yet): Section 4 (pages 10-12) of https://arxiv.org/abs/1606.09470
+  
+  * Formulas for matrix-based formalism for Pure DMMs (not implemented): Section 5.2 (pages 3-4) of https://arxiv.org/abs/1610.00831
+  
+## Non-flat network matrix (using arbitrary V-value as a network matrix)
+
+Not implemented, but discussed in multiple places
+
+  * Initial discussion:
