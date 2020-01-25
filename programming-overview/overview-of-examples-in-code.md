@@ -68,7 +68,7 @@ https://github.com/anhinga/population-of-directions/tree/master/drafts
 
 to be continued at https://github.com/anhinga/typed-dmms
 
-### Initial half-baked attempts at interatictive evolution (Processing)
+### Initial half-baked attempts at interactive evolution (Processing)
 
 https://github.com/anhinga/fluid/tree/master/Lightweight_Evolutionary
 
