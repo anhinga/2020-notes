@@ -26,13 +26,13 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
 
 ## Using accumulators in general
 
-  * For the purpose of maintaining the map  "character" => "number of occurences of that character":
+  * For the purpose of maintaining the map  "character" => "number of occurrences of that character":
     Section 3.1 (page 8) of https://arxiv.org/abs/1606.09470 (in context of the solution of the first problem
-    from "Cracking the Coding Interview" book, Section 1.2 (page 2) and Section 3 (pages 8-10) of this paper.
+    from "Cracking the Coding Interview" book, Section 1.2 (page 2) and Section 3 (pages 8-10) of this paper).
 
-  * Similarly, a map "word" => "number of occurences of that word" can be maintained. It's an infinitely-dimenstional
+  * Similarly, a map "word" => "number of occurrences of that word" can be maintained. It's an infinitely-dimenstional
     sparse vector, which can be maintained by a single neuron connected in such a fashion as to form an accumulator.
 
-
+  * To accumulate a list of mouse clicks using V-values: Section 6.3 (pages 18-19) of https://arxiv.org/abs/1712.07447
 
 ## Using self-referential mechanism
