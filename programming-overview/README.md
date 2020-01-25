@@ -59,7 +59,7 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
   
 ## Non-flat network matrix (using arbitrary V-value as a network matrix)
 
-Not implemented, but discussed in multiple places (prompted by the desire to naturaly share common parts when deep copying network subgraphs instead of duplicating them (this should certainly be feasible if programming with immutable data).
+Not implemented, but discussed in multiple places (prompted by the desire to naturaly share common parts when deep copying network subgraphs instead of duplicating them (this should certainly be feasible if programming with immutable data)).
 
   * Initial discussion lifted and condensed from e-mails: Section 2.3 (page 5) of 
     https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf
@@ -68,4 +68,9 @@ Not implemented, but discussed in multiple places (prompted by the desire to nat
     Section 5 (page 3) and Endnote 3 (page 4) of
     https://github.com/anhinga/2019-design-notes/blob/master/research-notes/dmm-notes-june-2019.pdf
 
+  * In the general case (when not only column indices, but also row indices are hierarchical), one needs to formalize
+    where in a path the row index ends and the column index starts. One should probably think about this situation in the spirit
+    of Section 5.3 (page 16) of https://arxiv.org/abs/1712.07447 (more specifically, one should think about V-values as leaves of
+    V-values, so that the overall space is either V tensor product by V or V tensor product by sum of V and R. There is
+    some interesting fairly open-ended math here.    
 
