@@ -56,14 +56,32 @@ With emerging patterns, Section 1.2 (pages 3-4) of https://www.cs.brandeis.edu/~
 
 https://github.com/anhinga/fluid/tree/master/atparty-2018/game_of_afterlife
 
-## Drawing with a mouse (Python)
+https://github.com/anhinga/fluid_drafts
+
+*****************************
+
+## Rough drafts
+
+### Drawing with a mouse (Python)
 
 https://github.com/anhinga/population-of-directions/tree/master/drafts
 
 to be continued at https://github.com/anhinga/typed-dmms
 
+### Initial half-baked attempts at interatictive evolution (Processing)
+
+https://github.com/anhinga/fluid/tree/master/Lightweight_Evolutionary
+
 *****************************
 
 ## Indirectly related software experiments
 
+### Regularization in intrinsically sparse networks
 
+https://github.com/anhinga/synapses/blob/master/regularization.md
+
+### Shaders
+
+https://github.com/anhinga/2019-python-drafts/tree/master/vispy/atparty-2019
+
+https://dmm.dreamwidth.org/20076.html
