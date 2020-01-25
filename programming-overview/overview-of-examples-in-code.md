@@ -10,9 +10,13 @@ Described in https://arxiv.org/abs/1601.00713 ("Almost Continuous Transformation
 
 ## First DMMs: continuous cellular automata 
 
-Described in https://arxiv.org/abs/1601.01050 ("Dataflow Graphs as Matrices and Programming with Higher-order Matrix Elements")
+  * Described in Section 4 (page 7) of https://arxiv.org/abs/1601.01050 ("Dataflow Graphs as Matrices and Programming with Higher-order Matrix Elements")
 
-Implementation: https://github.com/anhinga/fluid/tree/master/aug_24_15_experiment
+  * Implementation: https://github.com/anhinga/fluid/tree/master/aug_20_15_experiment
+
+  * With fully higher-order matrix elements: Section 4.1 (page 8) of the same paper
+
+  * Implementation: https://github.com/anhinga/fluid/tree/master/aug_24_15_experiment
 
 ## First self-referential DMMs:
 
