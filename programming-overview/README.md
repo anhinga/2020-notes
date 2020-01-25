@@ -5,7 +5,7 @@
 Introduction to https://arxiv.org/abs/1606.09470 ("Programming Patterns in Dataflow Matrix Machines and Generalized Recurrent Neural Nets"),
 that's first 6 pages of this paper.
 
-A more recent and high-level description: Section 6 (pages 16-19) of https://arxiv.org/abs/1712.07447 ("Dataflow Matrix Machines and V-values: a Bridge between Programs and Neural Nets")
+A more recent and high-level description: Section 6 (pages 16-20) of https://arxiv.org/abs/1712.07447 ("Dataflow Matrix Machines and V-values: a Bridge between Programs and Neural Nets")
 
 ## Accumulators
 
