@@ -35,7 +35,9 @@ Overview for the accumulator with two inputs: Section 7 (pages 20-21) of https:/
 
   * To accumulate a list of mouse clicks using V-values: Section 6.3 (pages 18-19) of https://arxiv.org/abs/1712.07447
   
-  * ...
+  * See also the Python examples of drawing with a mouse at the **"Overview of DMM-related examples in code"**
+    in this directory:
+    https://github.com/anhinga/2020-notes/blob/master/programming-overview/overview-of-examples-in-code.md
 
 ## Using self-referential mechanism
 
