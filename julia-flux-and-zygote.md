@@ -39,7 +39,7 @@ and from the ability to take gradients of arbitrary source code._
 
 This is a great framework for many other machine learning applications as well.
 
-Fashionable Modelling with Flux: https://arxiv.org/abs/1811.01457
+**"Fashionable Modelling with Flux"**: https://arxiv.org/abs/1811.01457
 
 Their front page is very cool:
 
