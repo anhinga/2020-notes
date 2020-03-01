@@ -18,6 +18,8 @@ https://github.com/FluxML/Zygote.jl
 
 https://arxiv.org/abs/1810.07951
 
+https://arxiv.org/abs/1907.07587
+
 (See, in particular, Section 5, "Related Work", of the latest version of the paper (March 2019).)
 
 They say that the approach can support the full flexibility and dynamism of the Julia language, 
@@ -36,6 +38,8 @@ where we can truly benefit from not having to contort things into fixed-shape te
 and from the ability to take gradients of arbitrary source code._
 
 This is a great framework for many other machine learning applications as well.
+
+Fashionable Modelling with Flux: https://arxiv.org/abs/1811.01457
 
 Their front page is very cool:
 
