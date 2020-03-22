@@ -302,7 +302,7 @@ expect this to become more and more automated.
 
 We do expect a typical AI-GAs advance to be applicable to DMMs in this sense, and to result
 in novel ways of composing and using DMMs. At some point, we expect the automated processes
-to match and exceed our own abilities of being creative with DMM design and use. But even before that
+to match and exceed our own abilities of being creative with DMM design and use. But even before that,
 a variety of modest AI-GAs-related advances should produce interesting and unexpected DMM-related developments.
 
 \subsection{How much compute is needed for AI-GAs?}\label{sec:compute}
@@ -406,7 +406,7 @@ DMM programming techniques and examples currently present in DMM literature and 
 More efforts should be applied towards creating new DMM programming techniques and examples.
 
 We believe in pluralism of DMM programming styles. 
-Traditional programming architectures support a large variety of programming styles: imperative, object-oriented, functional, logical, dataflow,and many others. We think that programming in the DMM paradigm will also support a diversity of programming styles. Some of those programming styles might be fairly conservative modifications of programming styles available in the realm of discrete programs (e.g. there is a lot of affinity to various stream-based architectures, such
+Traditional programming architectures support a large variety of programming styles: imperative, object-oriented, functional, logical, dataflow, and many others. We think that programming in the DMM paradigm will also support a diversity of programming styles. Some of those programming styles might be fairly conservative modifications of programming styles available in the realm of discrete programs (e.g. there is a lot of affinity to various stream-based architectures, such
 as traditional dataflow or more modern functional reactive programming).
 Other DMM programming styles to be discovered in the future might be entirely novel. 
 
@@ -440,20 +440,20 @@ of linear streams within single DMM first appear in Michael Bukatin, Steve Matth
 generalized recurrent neural networks}, May 2016.
 \href{https://arxiv.org/abs/1605.05296}{\tt https://arxiv.org/abs/1605.05296}}, 
 whereas our existing Clojure and Processing implementations are based on having
-a single sufficiently expressive kind of linear streams\footnote{Streams of V-values in the Clojure implementation
-and streams of rectangular matrices of a fixed size in the Processing implementation.}.
+a single sufficiently expressive kind of linear streams\footnote{Streams of V-values are used in the Clojure implementation
+and streams of rectangular matrices of a fixed size are used in the Processing implementation.}.
 
 \subsection{Design work for DMMs as a machine learning platform}
 
 While we have performed a number of experiments with self-modifying neural machines (DMMs),
 and while the class of DMMs includes known neural networks as subclasses,
-our group have only done preliminary design work for future machine learning experiments with DMMs.
+our group has only done preliminary design work for future machine learning experiments with DMMs.
 
-Here the dichotomy is between gradient-based methods and gradient-free methods,
+Some of the dichotomies here are between gradient-based methods and gradient-free methods,
 and also between GPU acceleration and just using CPU cores.
 
 For moderate scale experiments, one can simply use derivative-free methods and CPU cores.
-For example, as a derivative-free method one can use the modern incarnation of evolution strategies, introduced by researchers from OpenAI\footnote{Tim Salimans, Jonathan Ho, Xi Chen, Szymon Sidor, Ilya Sutskever, {\em Evolution Strategies as a Scalable Alternative to Reinforcement Learning}, March 2017.
+For example, as a derivative-free method, one can use the modern incarnation of evolution strategies, introduced by researchers from OpenAI\footnote{Tim Salimans, Jonathan Ho, Xi Chen, Szymon Sidor, Ilya Sutskever, {\em Evolution Strategies as a Scalable Alternative to Reinforcement Learning}, March 2017.
 \href{https://arxiv.org/abs/1703.03864}{\tt https://arxiv.org/abs/1703.03864}}  and
 further elucidated by researchers from Uber AI Labs\footnote{Xingwen Zhang, Jeff Clune, Kenneth Stanley,
 {\em On the Relationship Between the OpenAI Evolution Strategy and Stochastic Gradient Descent}, December 2017.
@@ -461,17 +461,17 @@ further elucidated by researchers from Uber AI Labs\footnote{Xingwen Zhang, Jeff
 
 We have also started to do
 exploratory work towards using an adaptive ``population coordinate descent" derivative-free schema. The essence of
-that schema is to maintain evolving
-population of directions constituting an overdefined coordinate system and to use an adaptive probability distribution/adaptive
+that schema is to maintain an evolving
+population of directions which form an overdefined coordinate system and to use an adaptive probability distribution/adaptive
 sampling schema to repeatedly sample a direction for the next step of coordinate descent\footnote{This work is
 still in its exploratory design stage: 
 \href{https://github.com/anhinga/population-of-directions}{\tt https://github.com/anhinga/population-of-directions}}.
 
 However, looking forward, one really wants to have an option of using gradient-based methods and GPU/TPU
-acceleration. The most popular machine learning frameworks such as PyTorch are a nice fit for rigid subclasses
-of DMMs. However, they are oriented towards standard tensors (multidimensional arrays of
-fixed number of dimensions and fixed size along each of those dimensions), and using them for the more flexible variety of DMMs based on flexible tensors
-with tree-shaped indices is non-trivial\footnote{A design sketch of one possible way of flattening and reshaping
+acceleration. The most popular machine learning frameworks, such as PyTorch, are a nice fit for rigid subclasses
+of DMMs. However, they are oriented towards standard tensors (multidimensional arrays of a
+fixed number of dimensions and fixed sizes along each of those dimensions), and using them for the more flexible variety of DMMs based on flexible tensors
+with tree-shaped indices is non-trivial\footnote{A design sketch for one possible way of flattening and reshaping
 tree-shaped indices to fit the "fixed number of dimensions/fixed size" framework can be found
 here:\\
 \href{https://github.com/anhinga/2019-design-notes/blob/master/automated-synthesis/flattening-of-v-values.md}
