@@ -27,8 +27,8 @@ _Synergy between AI-generating algorithms and dataflow matrix machines_
 Abstract:
   * _AI-generating algorithms_ is an alternate paradigm for producing general artificial intelligence
 introduced by Jeff Clune in 2019. Its idea is to create an algorithm which itself automatically learns how
-to produce general AI. The approach is structured into three pillars: 1) meta-learning AI architectures,
-2) meta-learning the learning algorithms, and 3) generating effective learning environments.
+to produce general AI. The approach is structured into three pillars: 1) meta-learning AI architectures, 2) 
+meta-learning the learning algorithms, and 3) generating effective learning environments.
   * _Dataflow matrix machines_ form a novel class of programmable neural machines bridging the gap
 between programs and recurrent neural networks. This class of neural machines seems to be suitable
 for general purpose programming, allows to conveniently express powerful self-modification facilities,
