@@ -24,7 +24,7 @@ https://juliagizmos.github.io/Reactive.jl/
 For a number of reasons noted elsewhere in this repository, Julia is the best fit for the DMM development at the moment.
 Julia Reactive is instrumental in GtkReactive and ImageView, so it is not disappearing any time soon
 (no danger it will share the fate of original Elm and its Signal functionality). So it looks like
-Julia would be a good fit for experiment in mixing DMMs with functional reactive programming.
+Julia would be a good fit for experiments in mixing DMMs with functional reactive programming.
 
 ---
 
