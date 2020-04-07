@@ -13,3 +13,19 @@ Badger Architecture: https://www.goodai.com/badger-architecture/
 
 Cf. "Network of Evolvable Neural Units: Evolving to Learn at a Synaptic Level", https://arxiv.org/abs/1912.07589
 
+---
+
+"Improving Generalization in Meta Reinforcement Learning using Learned Objectives", https://arxiv.org/abs/1910.04098
+
+See also: "Modular Networks: Learning to Decompose Neural Computation", https://arxiv.org/abs/1811.05249
+
+---
+
+"Learning to Continually Learn", https://arxiv.org/abs/2002.09571
+
+The associated talk: https://twitter.com/jeffclune/status/1233394656584454144 (talk  on ANML 
+(a Neuromodulated Meta-Learning Algorithm) ANML meta-learns to reduce catastrophic forgetting)
+
+---
+
+
