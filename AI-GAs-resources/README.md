@@ -21,6 +21,10 @@ See also: "Modular Networks: Learning to Decompose Neural Computation", https://
 
 ---
 
+"Evolving Loss Functions with Multivariate Taylor Polynomial Parameterizations", https://arxiv.org/abs/2002.00059
+
+---
+
 "Learning to Continually Learn", https://arxiv.org/abs/2002.09571
 
 The associated talk: https://twitter.com/jeffclune/status/1233394656584454144 (talk  on ANML 
