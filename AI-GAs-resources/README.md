@@ -28,4 +28,26 @@ The associated talk: https://twitter.com/jeffclune/status/1233394656584454144 (t
 
 ---
 
+"Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions", https://arxiv.org/abs/2003.08536
+
+The associated video: https://youtu.be/RX0sKDRq400
+
+---
+
+"Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data", https://arxiv.org/abs/1912.07768https://github.com/GoodAI/GTN
+
+PyTorch implementation: https://www.goodai.com/implementation-of-generative-teaching-networks-for-pytorch/ and https://github.com/GoodAI/GTN
+
+---
+
+GoodAI: https://github.com/GoodAI
+
+https://www.goodai.com/
+
+GoodAI is an extermely interesting place. Located in Prague (a great choice, with remote collaborators), 
+mixes together PyTorch and Unity game engine, mission statement: 
+"Develop safe general artificial intelligence – as fast as possible – to help humanity and understand the universe"
+
+---
+
 
