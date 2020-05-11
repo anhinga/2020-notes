@@ -71,7 +71,8 @@ of papers and preprints. The reference paper is,
 _Dataflow Matrix Machines and V-values: a Bridge between Programs and Neural Nets_,
 https://arxiv.org/abs/1712.07447
 
-A recent overview of the current state of DMM research for the AI-GAs community is
+A recent overview of the current state of DMM research which was written
+for the AI-GAs community is
 _Synergy between AI-generating algorithms and dataflow matrix machines_
 (March 2020)
 https://github.com/anhinga/2020-notes/tree/master/research-notes
@@ -97,7 +98,7 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
   * We are also going to use
       * Arbitrary fixed or variable arity of activation functions
       * A rich library of powerful built-in activation functions
-      * Unbounded network size (⇒unbounded memory)
+      * Unbounded network size (⇒ unbounded memory)
       * Self-referential and self-modification facilities:  
         ability to change weights, topology, and the size of the active part dynamically, on the fly.
    
@@ -128,5 +129,5 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
     transformations, compose them, etc).
     
 I think this formalism is likely to be useful in the context of fruitful meditations
-on the "10 lines thesis" by Jürgen Schmidhuber
+on the "10 lines thesis" by Jürgen Schmidhuber.
  
