@@ -38,6 +38,8 @@ _“The central algorithm for intelligence is incredibly short.
 The algorithm that allows systems to self-improve is perhaps 10 lines of pseudocode. 
 What we are missing at the moment is perhaps just another five lines.”_
 
+---
+
 ### *** "10 lines" as a meditation topic ***
 
 An interesting meditation exercise is as follows.
@@ -59,6 +61,8 @@ This is, obviously, a series of meditation exercises. Each particular
 exercise depends on your assumptions about the path by which you and/or
 community arrived at the imagined moment in question.
 
+---
+
 ### *** Dataflow Matrix Machines and "10 lines" ***
 
 DMM formalism might be quite useful for some of these meditations.
@@ -76,6 +80,8 @@ for the AI-GAs community is
 _Synergy between AI-generating algorithms and dataflow matrix machines_
 (March 2020)
 https://github.com/anhinga/2020-notes/tree/master/research-notes
+
+---
 
   * The essence of neural model of computations is that 
     linear and non-linear computations are interleaved. 
@@ -127,7 +133,9 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
     from the other neurons and incorporate them. This allows to flexibly combine
     any transformations of network matrices (one can take linear combinations of such
     transformations, compose them, etc).
-    
+
+---
+
 I think this formalism is likely to be useful in the context of fruitful meditations
 on the "10 lines thesis" by Jürgen Schmidhuber.
  
