@@ -38,7 +38,7 @@ _“The central algorithm for intelligence is incredibly short.
 The algorithm that allows systems to self-improve is perhaps 10 lines of pseudocode. 
 What we are missing at the moment is perhaps just another five lines.”_
 
-### "10 lines" as a meditation topic
+### *** "10 lines" as a meditation topic ***
 
 An interesting meditation exercise is as follows.
 
@@ -59,4 +59,19 @@ This is, obviously, a series of meditation exercises. Each particular
 exercise depends on your assumptions about the path by which you and/or
 community arrived at the imagined moment in question.
 
-#### *** DMMs and "10 lines" ***
+### *** DMMs and "10 lines" ***
+
+DMM formalism might be quite useful for some of these meditations.
+
+The awareness of the key DMM concepts might inspire new and different
+architectures for those possible "10 lines" drafts.
+
+The following ideas were mostly developed in 2015-2016 in a series
+of papers and preprints. The reference paper is,
+_Dataflow Matrix Machines and V-values: a Bridge between Programs and Neural Nets_,
+https://arxiv.org/abs/1712.07447
+
+A recent overview of the current state of DMM research for the AI-GAs community is
+_Synergy between AI-generating algorithms and dataflow matrix machines_
+(March 2020)
+https://github.com/anhinga/2020-notes/tree/master/research-notes
