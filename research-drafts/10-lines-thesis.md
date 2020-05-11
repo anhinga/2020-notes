@@ -1,6 +1,7 @@
 ## Inspired by "10 lines thesis" by Jürgen Schmidhuber
 
-The ICLR 2020, had a workshop _"Beyond “Tabula Rasa” in Reinforcement Learning (BeTR-RL): Agents that remember, adapt, and generalize"_
+The ICLR 2020, had a workshop _"Beyond “Tabula Rasa” in Reinforcement Learning (BeTR-RL): 
+Agents that remember, adapt, and generalize"_
 (April 26, 2020):
 
 http://www.betr-rl.ml/2020/
@@ -37,6 +38,24 @@ _“The central algorithm for intelligence is incredibly short.
 The algorithm that allows systems to self-improve is perhaps 10 lines of pseudocode. 
 What we are missing at the moment is perhaps just another five lines.”_
 
-### "10 lines" as a meditation topic
+#### *** "10 lines" as a meditation topic ***
 
-### DMMs and "10 lines"
+An interesting meditation exercise is as follows.
+
+Assume that there is a moment (now or in the future), where the thesis
+that approximately 10 lines of sufficiently high-level computer code could
+generate AI is literally correct. Assume that a good chunk of Internet is
+available for such a process (although, it's OK to assume that it is
+a static snapshot of a subset of Internet within a sandbox environment;
+of course, the question of whether an effective sandbox for such a
+situation is at all possible is a whole separate long story and long study).
+
+Assume that this chunk, in particular, contains a fairly large subset of
+public github, of arxiv, and of wikipedia. The meditation exercise is,
+then, what these 10 lines of code might look like.
+
+This is, obviously, a series of meditation exercises. Each particular
+exercise depends on your assumptions about the path by which you and/or
+community arrived at the imagined moment in question.
+
+#### *** DMMs and "10 lines" ***
