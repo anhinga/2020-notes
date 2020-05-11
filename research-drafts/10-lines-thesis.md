@@ -38,7 +38,7 @@ _“The central algorithm for intelligence is incredibly short.
 The algorithm that allows systems to self-improve is perhaps 10 lines of pseudocode. 
 What we are missing at the moment is perhaps just another five lines.”_
 
-#### *** "10 lines" as a meditation topic ***
+### "10 lines" as a meditation topic
 
 An interesting meditation exercise is as follows.
 
@@ -48,11 +48,12 @@ generate AI is literally correct. Assume that a good chunk of Internet is
 available for such a process (although, it's OK to assume that it is
 a static snapshot of a subset of Internet within a sandbox environment;
 of course, the question of whether an effective sandbox for such a
-situation is at all possible is a whole separate long story and long study).
+situation is at all possible is a whole separate long story, long discussion,
+and long study).
 
-Assume that this chunk, in particular, contains a fairly large subset of
+Assume that this chunk of Internet, in particular, contains a fairly large subset of
 public github, of arxiv, and of wikipedia. The meditation exercise is,
-then, what these 10 lines of code might look like.
+then, what these 10 lines of AI-generating code might look like.
 
 This is, obviously, a series of meditation exercises. Each particular
 exercise depends on your assumptions about the path by which you and/or
