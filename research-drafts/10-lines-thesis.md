@@ -132,7 +132,10 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
     an efficient incremental manner). **Self** can take updates to the network matrix
     from the other neurons and incorporate them. This allows to flexibly combine
     any transformations of network matrices (one can take linear combinations of such
-    transformations, compose them, etc).
+    transformations, compose them, etc). So far we were typically thinking about these
+    matrices as countably-dimensional matrices with finite number of non-zero elements
+    at any given moment of time, so these are countably-sized networks with finite active
+    part, and this finite active part can be dynamically expanded as needed.
 
 ---
 
