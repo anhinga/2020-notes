@@ -59,7 +59,7 @@ This is, obviously, a series of meditation exercises. Each particular
 exercise depends on your assumptions about the path by which you and/or
 community arrived at the imagined moment in question.
 
-### *** DMMs and "10 lines" ***
+### *** Dataflow Matrix Machines and "10 lines" ***
 
 DMM formalism might be quite useful for some of these meditations.
 
@@ -90,4 +90,28 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
     elements themselves cannot be so combined).
     
   * **V-values** ("flexible tensors with tree-shaped indices") are especially
-    useful for many of our purposes.
+    convenient and useful for many of our purposes. One can think about these
+    structures as nested dictionaries, as prefix trees, as mixed-rank tensors,
+    or as formal linear combination of finite strings.
+
+  * We are also going to use
+      * Arbitrary fixed or variable arity of activation functions
+      * Unbounded network size (⇒unbounded memory)
+      * Self-referential and self-modification facilities:  
+        ability to change weights, topology, and the size of the active part dynamically, on the fly.
+   
+  * Then we obtain a formalism for very expressive and flexible neural machines,
+    which we call **Dataflow Matrix Machines (DMMs)**.
+  
+  * RNNs are known to be Turing-complete in the presence of unbounded memory,
+    but they are too low-level, and a number of people are suggesting that they
+    might be closer to an esoteric programming language, and that their
+    pragmatic programming power is less than power of a general purpose programming
+    language. DMMs seem to have full power of a practical dataflow programming language
+    or of a functional reactive programming language. So we are actually obtaining
+    a programming formalism, where one can **continuously deform programs**.
+    
+  * A variety of self-modification algorithms for recurrent neural networks were explored
+    by the AI community. However, it is always difficult to introduce new ways to
+    self-modify RNNs, and one cannot freely and flexibly mix-and-match different
+    self-modification schemas.
