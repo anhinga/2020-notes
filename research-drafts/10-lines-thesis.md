@@ -1,13 +1,14 @@
 ## Inspired by "10 lines thesis" by Jürgen Schmidhuber
 
-The ICLR 2020, had a workshop "Beyond “Tabula Rasa” in Reinforcement Learning (BeTR-RL): Agents that remember, adapt, and generalize":
+The ICLR 2020, had a workshop _"Beyond “Tabula Rasa” in Reinforcement Learning (BeTR-RL): Agents that remember, adapt, and generalize"_
+(April 26, 2020):
 
 http://www.betr-rl.ml/2020/
 
 http://www.betr-rl.ml/2020/program/
 
-The panel with all 4 invited speakers and Jürgen Schmidhuber starts around 2:40 in the video. 
-At 3:36, Jürgen Schmidhuber made a radical remark that at the end of the day there will be a 
+The panel with all 4 invited speakers + Jürgen Schmidhuber starts around 2:40 in the video. 
+At 3:36, Jürgen Schmidhuber makes a radical remark that at the end of the day there will be a 
 10-line program generating advanced super-human AI, and with the benefit of hindsight 
 we'll say that it was obvious and it was strange that we have not found it earlier
 (pieces are already there, we just need to join them together, he says, "we are almost there")
