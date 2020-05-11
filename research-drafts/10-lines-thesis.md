@@ -75,3 +75,19 @@ A recent overview of the current state of DMM research for the AI-GAs community 
 _Synergy between AI-generating algorithms and dataflow matrix machines_
 (March 2020)
 https://github.com/anhinga/2020-notes/tree/master/research-notes
+
+  * The essence of neural model of computations is that 
+    linear and non-linear computations are interleaved. 
+    Hence, the natural degree of generality for neuromorphic computations 
+    is to work not with streams of numbers, but with arbitrary streams
+    supporting the notion of linear combination of several streams (**linear streams**).
+
+  * There is a variety of kinds of linear streams (streams of finite-dimensional
+    tensors of fixed shape is only one, most familiar corner case; there can
+    be streams of elements representing infinite-dimensional vectors; or
+    even streams of elements of arbitrary nature (e.g. streams can be combined
+    with coefficients by taking generalized stochastic sums, even if the
+    elements themselves cannot be so combined).
+    
+  * **V-values** ("flexible tensors with tree-shaped indices") are especially
+    useful for many of our purposes.
