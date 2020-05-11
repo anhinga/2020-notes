@@ -66,7 +66,7 @@ DMM formalism might be quite useful for some of these meditations.
 The awareness of the key DMM concepts might inspire new and different
 architectures for those possible "10 lines" drafts.
 
-The following ideas were mostly developed in 2015-2016 in a series
+The following ideas were mostly developed in 2015-2017 in a series
 of papers and preprints. The reference paper is,
 _Dataflow Matrix Machines and V-values: a Bridge between Programs and Neural Nets_,
 https://arxiv.org/abs/1712.07447
@@ -96,6 +96,7 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
 
   * We are also going to use
       * Arbitrary fixed or variable arity of activation functions
+      * A rich library of powerful built-in activation functions
       * Unbounded network size (⇒unbounded memory)
       * Self-referential and self-modification facilities:  
         ability to change weights, topology, and the size of the active part dynamically, on the fly.
@@ -109,9 +110,23 @@ https://github.com/anhinga/2020-notes/tree/master/research-notes
     pragmatic programming power is less than power of a general purpose programming
     language. DMMs seem to have full power of a practical dataflow programming language
     or of a functional reactive programming language. So we are actually obtaining
-    a programming formalism, where one can **continuously deform programs**.
+    a pragmatic programming formalism, where one can **continuously deform programs**.
+    One can choose whether to have large networks with a lot of weights, or whether to have
+    compact powerful networks (programs) which have only a few weights and neurons, 
+    but use highly expressive powerful neurons and streams, or anything in between.
     
   * A variety of self-modification algorithms for recurrent neural networks were explored
     by the AI community. However, it is always difficult to introduce new ways to
     self-modify RNNs, and one cannot freely and flexibly mix-and-match different
-    self-modification schemas.
+    self-modification schemas. With DMMs, one can have single neurons accumulating and
+    transforming streams of entire network matrices. So one can have a neuron **Self**,
+    outputting the next version of an entire network matrix on each step (if one computes
+    with immutable data and shared common substructures, this can be done in
+    an efficient incremental manner). **Self** can take updates to the network matrix
+    from the other neurons and incorporate them. This allows to flexibly combine
+    any transformations of network matrices (one can take linear combinations of such
+    transformations, compose them, etc).
+    
+I think this formalism is likely to be useful in the context of fruitful meditations
+on the "10 lines thesis" by Jürgen Schmidhuber
+ 
