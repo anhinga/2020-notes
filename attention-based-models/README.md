@@ -25,3 +25,16 @@ Here it would be practicularly interesting to see, if these classes of attention
 together, e.g. if biological-oriented models can be used to approximate pragmatic models of
 attention (I don't know what might have been done in this direction already).
 
+Another issue of interests for me is whether biological models of attention can be useful for
+creation of "mini-Transformers" (Transformer-like models which would be expressive, but
+more modest in terms of required computational resources, especially for training).
+
+Another point of acute interest for me is to explore various ways of hybridization between
+dataflow matrix machines and various attention-based approaches, both for pragmatic and
+for biological-oriented attention (here the architectures might be Transformer-like,
+Recurrent Independent Mechanisms-like, or something else).
+
+Note that there were proposals to understand "consciousness" via attention-like mechanisms
+(both in biological systems, via synchronized oscillations, and in artificial systems,
+via pragmatic attention used to create information bottleneck).
+
