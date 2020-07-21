@@ -18,14 +18,15 @@ I am going to offer the following explation.
 
 The situation when this terminology works really, really well is the following one.
 
-Assume that the "value vector" are fairly high-dimensional and sparse (in the sense,
+Assume that the "value vectors" are fairly high-dimensional and sparse (in the sense,
 that not too many coordinates of each vector are substantially different from zero;
 we'll even think that the number of "leading terms" (coordinates which are quite far from zero)
 is small, and then there might be some less prominent non-zero coordinates, but not too many).
 
 Then if you just add them all together (with all coefficient being one), this is not too
 far from the union of all these values (ideally, the sparseness is such that different vectors
-don't intersect too much).
+don't intersect too much, so there is an extra assumtion here that "value vectors" are
+"almost independent").
 
 Then multiplication by probabilities before adding them all together would attenuate the
 non-attended ones.
@@ -35,3 +36,11 @@ one could include an explicit sparsification step to zero them out**), then some
 will disappear completely from the picture (even their leading "terms" (coordinates) will become
 too small), while some other "semi-attended vectors" will remain, but "lose resolution"
 (some of their less prominent non-zero coordinates will become too small to register anymore).
+
+Now, this actually starts resembling attention; one only actually sees the "objects" (value vectors),
+which one attends to, and there are "semi-attended objects on the 'border of the circle of attention'",
+and those semi-attended objects are visible, but with lower resolution/less detail.
+
+Now, this suddenly looks like our familiar attention, and is reasonably consistent with my
+introspection of my own visual attention (as long as we can "identify" coordinates of
+value vectors with features of visual objects I see.)
