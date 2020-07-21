@@ -38,3 +38,10 @@ Note that there were proposals to understand "consciousness" via attention-like 
 (both in biological systems, via synchronized oscillations, and in artificial systems,
 via pragmatic attention used to create information bottleneck).
 
+---
+
+There is a bit of mystery about simple-minded pragmatic attention, the so-called
+"content-based neural attention": why a linear combination of value vectors is a good model
+of attention? I am trying to explain this in 
+[simple-minded-attention.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/simple-minded-attention.md).
+
