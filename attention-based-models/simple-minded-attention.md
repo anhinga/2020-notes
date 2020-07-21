@@ -4,7 +4,7 @@ The idea due to Dzmitry Bahdanau (Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio
 
 There a number of "value vectors",
 which are high-dimensional. A model computes relevances of each of those vectors,
-and transforms the vector of relevances to probabilities by applying _softmax_.
+and transforms the vector of relevances to the vector of probabilities by applying _softmax_.
 
 Then one "applies the attention defined by this vector of probabilities" by taking
 the linear combination of "value vectors" with these probabilities as coefficients.
@@ -29,3 +29,9 @@ don't intersect too much).
 
 Then multiplication by probabilities before adding them all together would attenuate the
 non-attended ones.
+
+If we think that coordinates below some treshold become effectivelt zeros (**in principle,
+one could include an explicit sparsification step to zero them out**), then some vectors
+will disappear completely from the picture (even their leading "terms" (coordinates) will become
+too small), while some other "semi-attended vectors" will remain, but "lose resolution"
+(some of their less prominent non-zero coordinates will become too small to register anymore).
