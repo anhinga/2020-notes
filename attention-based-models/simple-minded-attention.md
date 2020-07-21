@@ -9,8 +9,8 @@ and transforms the vector of relevances to the vector of probabilities by applyi
 Then one "applies the attention defined by this vector of probabilities" by taking
 the linear combination of "value vectors" with these probabilities as coefficients.
 
-This is super-simple. The question one wants to ask: "why do you say this resembles attention",
-"why could one think aboyt this scheme as a natural model of attention"?
+This is super-simple. The question one wants to ask: "why do you say this resembles attention?",
+"why could one think about this scheme as a natural model of attention?".
 
 ---
 
