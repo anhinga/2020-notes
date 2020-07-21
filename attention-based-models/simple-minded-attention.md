@@ -14,7 +14,7 @@ This is super-simple. The question one wants to ask: "why do you say this resemb
 
 ---
 
-I am going to offer the following explation.
+I am going to offer the following explanation.
 
 The situation when this terminology works really, really well is the following one.
 
