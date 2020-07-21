@@ -23,8 +23,8 @@ that not too many coordinates of each vector are substantially different from ze
 we'll even think that the number of "leading terms" (coordinates which are quite far from zero)
 is small, and then there might be some less prominent non-zero coordinates, but not too many).
 
-Then if you just add them all together (with all coefficient being one), this is not too
-far from the union of all these values (ideally, the sparseness is such that different vectors
+Then if you just add them all together (with all coefficient being one), this is **not too
+far from the union of all these values** (ideally, the sparseness is such that different vectors
 don't intersect too much, so there is an extra assumtion here that "value vectors" are
 "almost independent").
 
