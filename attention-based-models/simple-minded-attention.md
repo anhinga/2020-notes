@@ -31,7 +31,7 @@ don't intersect too much, so there is an extra assumtion here that "value vector
 Then multiplication by probabilities before adding them all together would attenuate the
 non-attended ones.
 
-If we think that coordinates below some treshold become effectivelt zeros (**in principle,
+If we think that coordinates below some threshold become effectively zeros (**in principle,
 one could include an explicit sparsification step to zero them out**), then some vectors
 will disappear completely from the picture (even their leading "terms" (coordinates) will become
 too small), while some other "semi-attended vectors" will remain, but "lose resolution"
