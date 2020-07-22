@@ -12,5 +12,9 @@ where we allow to take arbitrary coefficients instead of probabilities (that is,
 
 Let's assume for a moment that "key vectors" are orthogonal to each other. Then the "query vector" in
 question can be obtained as sum of the "key vectors" with relevance coefficients (so a "generalized neural attention"
-is applied to the "key vector", and this retrieves the "query vector" back). If the orthogonality of "key vectors"
+is applied to the "key vectors", and this retrieves the "query vector" back). If the orthogonality of "key vectors"
 is approximate, then this observation also becomes approximate.
+
+So, this is an interesting condition. Relevance coefficients are those which more or less allow to
+restore the query back from the keys via generalized neural attention. Then they are converted to probabilities
+via _softmax_ and used to apply attention to value vectors.
