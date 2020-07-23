@@ -39,7 +39,7 @@ The key element of "content-based neural attention" is taking linear combination
 vectors, and it is rewritten via matrix multiplication in the context of Transformers.
 
 Exactly the same thing happens in Dataflow Matrix Machines - linear combinations of high-dimensional
-vectors, which get rewritten as matrix multiplication.
+vectors which get rewritten via matrix multiplication.
 
 Of course, there are differences. On one hand, there are a number of features of Dataflow Matrix Machines
 which are likely to make them more expressive than Transformers (which can be thought of as an important subclass
