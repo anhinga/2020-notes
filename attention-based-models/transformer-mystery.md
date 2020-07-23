@@ -8,11 +8,11 @@ parse trees (e.g. "Visualizing and Measuring the Geometry of BERT", https://arxi
 
 ---
 
-Shedding more light of this is likely to become a popular research subjects.
+Shedding more light on this is likely to become a popular research subject.
 
 At the moment we have some hints. For example, if one agrees with the 2019 version of 
 "The Consciousness Prior" essay by Yoshua Bengio, https://arxiv.org/abs/1709.08568 , then one
-can observe that Transformers fullfill a number of desiderate from this essay
+can observe that Transformers fullfill a number of desiderata from this essay
 (although, not the modulating feedback, which is absent in Transformers).
 
-
+Note that there was an earlier paper linking
