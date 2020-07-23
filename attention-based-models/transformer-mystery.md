@@ -17,13 +17,32 @@ can observe that Transformers fullfill a number of desiderata from this essay
 
 Note that there was an earlier paper linking a different (and more biorealistic) model of
 attention to consciousness in mammals: "Towards a Neurobiological Theory of Consciousness" 
-by Francis Crick and Christof Koch in Seminars in the Neurosciences (1990), Volume 2, pages 263–275, 
+by Francis Crick and Christof Koch, _Seminars in the Neurosciences_ (1990), **2**, pp. 263-275, 
 https://authors.library.caltech.edu/40352/1/148.pdf
 
-This might make us to have a stronger belief in the premises of "The Consciousness Prior" essay
+This might make us develop a stronger belief in the premises of "The Consciousness Prior" essay
 (it is strange that that essay does not reference the Crick-Koch paper; of course, Crick-Koch
 later started to say that it is more complicated than that, so one might say that they stopped
-agreeing with their own paper, but I suspect their initial
+agreeing with their own 1990 paper, but I suspect their initial
 simple and straightforward approach was closer to the true theory, than what they did afterwards).
 
 ---
+
+Another hint might come from the theory of Dataflow Matrix Machines. We know that if one takes
+recurrent neural networks and replaces streams of numbers by the streams of vectors on the level
+of single neurons, this greatly increases expressive power of the resulting formalism. E.g. one can
+use the resulting neural machines as a full-strength general-purpose programming platform with
+continuously deformable programs, one obtains neural machines which can easily and fluently
+modify themselves in highly compositional ways, etc.
+
+The key element of "content-based neural attention" is taking linear combinations of high-dimensional
+vector, and it is rewritten via matrix multiplication in the context of Transformers.
+
+Exactly the same thing happens in Dataflow Matrix Machines - linear combinations of high-dimensional
+vectors, which get rewritten as matrix multiplication.
+
+Of course, there are differences. On one hand, there are a number of features of Dataflow Matrix Machines
+which are likely to make them more expressive than Transformers (which can be thought of as an important subclass
+of Dataflow Matrix Machines). On the other hand, we know that Transformers are nicely trainable,
+that the resulting models actually do take advantage of their expressive power, whereas no one has yet established
+that Dataflow Matrix Machines are nicely trainable in a practical sense.
