@@ -24,7 +24,7 @@ This might make us develop a stronger belief in the premises of "The Consciousne
 (it is strange that that essay does not reference the Crick-Koch paper; of course, Crick-Koch
 later started to say that it is more complicated than that, so one might say that they stopped
 agreeing with their own 1990 paper, but I suspect their initial
-simple and straightforward approach was closer to the true theory, than what they did afterwards).
+simple and straightforward approach was closer to the "true theory", than what they did afterwards).
 
 ---
 
@@ -36,7 +36,7 @@ continuously deformable programs, one obtains neural machines which can easily a
 modify themselves in highly compositional ways, etc.
 
 The key element of "content-based neural attention" is taking linear combinations of high-dimensional
-vector, and it is rewritten via matrix multiplication in the context of Transformers.
+vectors, and it is rewritten via matrix multiplication in the context of Transformers.
 
 Exactly the same thing happens in Dataflow Matrix Machines - linear combinations of high-dimensional
 vectors, which get rewritten as matrix multiplication.
