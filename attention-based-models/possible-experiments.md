@@ -11,7 +11,8 @@ the forward flow might do.
 ## DMM neural achitecture search
 
 Let's decompose the Transformer attention into its mathematical components: matrix multiplication,
-applying softmax to matrix rows (or columns), transpositions, and a handful of other operations.
+applying softmax to matrix rows (or columns), matrix transposition, and add a handful of other operations,
+so that we can at least express the rest of the Transformer-related pieces.
 
 Let's then perform some form of neural-architecture search. It might be in the style of
 "AutoML-Zero: Evolving Machine Learning Algorithms From Scratch", https://arxiv.org/abs/2003.03384 ,
