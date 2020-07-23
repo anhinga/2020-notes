@@ -50,3 +50,6 @@ The attention used in Transformers is a development of the "content-based neural
 
 Discussing the "Transformers' mystery", namely their "unreasonable effectiveness":
 [transformer-mystery.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/transformer-mystery.md).
+
+Some of the possible attention-related experiments:
+[possible-experiments.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/possible-experiments.md).
