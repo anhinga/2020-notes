@@ -49,7 +49,7 @@ that Dataflow Matrix Machines are nicely trainable in a practical sense.
 
 ---
 
-If one thinks how a biological cell is "interpreting" its DNA by cascade of gene expression regulation
-("often, one gene regulator controls another, and so on, in a https://en.wikipedia.org/wiki/Gene_regulatory_network),
+If one thinks how a biological cell is "interpreting" its DNA by cascades of gene expression regulation
+("often, one gene regulator controls another, and so on, in a https://en.wikipedia.org/wiki/Gene_regulatory_network"),
 one finds a lot of parallels with how a transformer is "interpreting" a text via
 multilayered attention.
