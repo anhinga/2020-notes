@@ -41,6 +41,6 @@ Real-time self-modification is an important theme in dataflow matrix machines re
 by applying some form of attention to the network matrix (to the network weights) seems to be
 a rather promising thing. 
 
-In particular, there was a variety of ideas how to make a single network learn to perform
+In particular, there was a variety of papers exploring ideas on how to make a single network learn to perform
 a variety of tasks without catastrophic forgetting, and almost always one could think about the
 mechanisms proposed in those papers as some type of attention applied to the network matrix.
