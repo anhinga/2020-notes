@@ -19,3 +19,12 @@ is approximate, then this observation also becomes approximate.
 So, this is an interesting condition. Relevance coefficients are those which more or less allow to
 restore the query back from the keys via generalized neural attention. Then they are converted to probabilities
 via _softmax_ and used to apply attention to value vectors.
+
+---
+
+Another way to think about this kind of attention as of a particular form of "fuzzy associative memory".
+
+(Again, parallels with biological attention is interesting, as there is a strong temptation to implement
+fuzzy associative memory in biology via oscillation and "holography".)
+
+Also, Christian Szegedy mentioned that this can be viewed as a relaxation of nearest neighbor lookup.
