@@ -345,6 +345,37 @@ on the bicontinuous domain in question for computations, and one can also use or
 At the same time, on the level of operational semantics we have a rich theory of self-referential dataflow
 matrix machines (see Section~\ref{sec:selfref} of the present text). What would constitute an adequate theory of reflexive bicontinuous domains in this context is an important open question.
 
+\section{DMMs and probabilistic programming}
+
+Our preprint\footnote{M.~Bukatin. {\em Using streams of probabilistic samples in neural machines.} January 2020.\\
+\href{https://github.com/anhinga/2020-notes/tree/master/research-notes}{\tt https://github.com/anhinga/2020-notes/tree/master/research-notes}} describes mechanisms allowing to integrate externally generated streams of
+probabilistic samples into neural machines by
+combining those streams with coefficients and using stream transformers built into the neurons.
+These mechanisms cover quasi-probabilities where positive and negative probability values are allowed,
+and also cover complex-valued streams. Here we include the material from Section 8 of that preprint.
+
+
+Observe that the neural machines in question are recurrent, so rather interesting streams might result from this setup.
+A dataflow matrix machine is capable of changing the coefficients used to combine streams (and can even reconfigure its own topology governing the connectivity between neurons),
+so there is good potential to create new methods to synthesize various desired streams in this setup.
+
+There are various intriguing possibilities of further development in connection with this formalism.
+
+In particular, two motives are prominent in probabilistic programming: probability distributions are defined
+by constraints expressed by probabilistic programs, and a variety of sampling methods is used
+to compute those distributions\footnote{See, for example, van  de Meent et al., {\em An Introduction to Probabilistic Programming}, 
+\href{https://arxiv.org/abs/1809.10756}{\tt https://arxiv.org/abs/1809.10756} and references at \href{http://probabilistic-programming.org}{\tt http://probabilistic-programming.org} }.
+It would be interesting to explore the following applications of DMMs:
+  \begin{itemize}
+      \item the situations where probability distributions are defined by
+constraints expressed by programs in the form of dataflow matrix machines ({\bf DMMs as probabilistic programs});
+     \item the situations where the sampling
+computing those distributions is performed by running dataflow matrix machines ({\bf sampling DMMs}).
+  \end{itemize}
+Sampling DMMs might take  DMMs  used as probabilistic programs as inputs\footnote{In 
+the self-referential world of DMMs there is no precise boundary between containing a subnetwork and taking a subnetwork as an input, as a DMM has facilities
+to take another network as an input and to incorporate it as a subnetwork on the fly.}.
+
 
 \section{Real-time functional programming: visual animation and virtual reality via composition
 of unit generators}
