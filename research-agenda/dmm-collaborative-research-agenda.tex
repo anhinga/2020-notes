@@ -40,7 +40,7 @@ Michael A. Bukatin
 
 
 \vspace{0.085in}
-August 6, 2020\footnote{Version 1.6. Version 1 (12-27-19) is at
+August 6, 2020\footnote{Version 1.7. Version 1 (12-27-19) is at
 \href{https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}
 {\tt https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}}
 
@@ -338,9 +338,9 @@ There are interesting possible connections to be explored between this material 
 
 \subsection{Domain equations for bicontinuous domains}
 
-Beginnings of high-order domain theory for bicontinuous domains are present both in the respective papers by Klaus Keimel and by Dexter Kozen\footnote{K.~Keimel. Bicontinuous domains and some old problems in domain theory. {\em Electronic Notes in Theoretical Computer Science}, {\bf 257}:35-54, 2009; D.~Kozen. Semantics of probabilistic programs. {\em Journal of Computer and System Sciences}, {\bf 22}(3):328-350,1981.}.
+Beginnings of high-order domain theory for bicontinuous domains are present in both of the respective papers by Klaus Keimel and by Dexter Kozen\footnote{K.~Keimel. Bicontinuous domains and some old problems in domain theory. {\em Electronic Notes in Theoretical Computer Science}, {\bf 257}:35-54, 2009; D.~Kozen. Semantics of probabilistic programs. {\em Journal of Computer and System Sciences}, {\bf 22}(3):328-350,1981.}.
 
-However, no theory of domain equations for bicontinuous domains have emerged so far to the best of our knowledge.
+However, no theory of domain equations for bicontinuous domains has emerged so far to the best of my knowledge.
 Even the question of the choice of morphisms in this context is non-trivial. Generally speaking, one can use either of the Scott topologies
 on the bicontinuous domain in question for computations, and one can also use order-reversing involutions (Sections 4.5 and 4.14 of our GCAI 2015 paper).
 
@@ -353,8 +353,8 @@ Our preprint\footnote{M.~Bukatin. {\em Using streams of probabilistic samples in
 \href{https://github.com/anhinga/2020-notes/tree/master/research-notes}{\tt https://github.com/anhinga/2020-notes/tree/master/research-notes}} describes mechanisms allowing to integrate externally generated streams of
 probabilistic samples into neural machines by
 combining those streams with coefficients and using stream transformers built into the neurons.
-These mechanisms cover quasi-probabilities where positive and negative probability values are allowed,
-and cover complex-valued streams. Here we include the material from Section 8 of that preprint.
+These mechanisms cover streams of quasi-probabilities where positive and negative probability values are allowed,
+and also complex-valued streams. Here we include the material from Section 8 of that preprint.
 
 
 Observe that the neural machines in question are recurrent, so rather interesting streams might result from this setup.
