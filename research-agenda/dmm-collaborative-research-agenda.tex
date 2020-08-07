@@ -40,7 +40,7 @@ Michael A. Bukatin
 
 
 \vspace{0.085in}
-August 6, 2020\footnote{Version 1.7. Version 1 (12-27-19) is at
+August 6, 2020\footnote{Version 1.8. Version 1 (12-27-19) is at
 \href{https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}
 {\tt https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}}
 
@@ -430,7 +430,13 @@ vectors. Note, that the transition from linear combinations of numbers to linear
 on the level of single neurons is the key factor responsible for increased expressive power of
 DMMs.
 
-However, here is where the similarities end so far. The Transformers were introduced with relatively
+However, that is where the similarities between Transformers and DMMs end so far. 
+Transformers is the leading state-of-the-art architecture
+with demonstrated remarkable capabilities to train and learn, whereas DMMs is a formalism with very interesting
+and remarkable expressive powers, but without any track record in terms of training and learning at this
+point in time.
+
+The Transformers were introduced with relatively
 modest goals of faithfully capturing long-range connections in data and enhancing parallelization capabilities
 during training, but it soon became apparent that their actual capabilities go well beyond that. In particular,
 it turned out that when one trains sufficiently large Transformers on a diverse natural language corpus
@@ -439,6 +445,17 @@ in data and
 useful for this kind of prediction. In particular, it turns out that Transformers learn natural language grammar quite
 well in this scenario, as demonstrated both by surface performance of many models of this class and by
 investigation of their internal structure.\footnote{E.g. A.~Coenen et al., {\em Visualizing and Measuring the Geometry of BERT}, June 2019, \href{https://arxiv.org/abs/1906.02715}{\tt https://arxiv.org/abs/1906.02715}}
+
+The initial training of Transformers tend to be quite costly, but their adaptation (``fine-tuning") to new tasks
+tends to be relatively inexpensive. So one can say that there is ``hidden meta-learning" which is built into
+this architecture; after initial pretraining the model's ability to learn new things increases greatly.
+
+These impressive capabilities were taken to the entirely new level with the introduction of GPT-3 and OpenAI API in
+May-June of this year.\footnote{See my note at \href{https://www.cs.brandeis.edu/~bukatin/transformer\_revolution.html}{\tt https://www.cs.brandeis.edu/$\sim$bukatin/transformer\_revolution.html}} I think the community is only at the beginning
+of the quest to understand why this architecture and especially its GPT-3 incarnation work so well.
+
+It's quite promising at this point to consider interplay between attention-based models including Transformers and
+other approaches.
 
 [...] THIS SECTION IS IN PROGRESS [...]
 
