@@ -40,7 +40,7 @@ Michael A. Bukatin
 
 
 \vspace{0.085in}
-August 7, 2020\footnote{Version 1.9. Version 1 (12-27-19) is at
+August 7, 2020\footnote{Version 2. Version 1 (12-27-19) is at
 \href{https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}
 {\tt https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}}
 
@@ -428,7 +428,7 @@ vectors and the representations of those linear combinations via matrix multipli
 Transformers are the only widely known subclass of DMMs built around linear combinations of high-dimensional
 vectors. Note, that the transition from linear combinations of numbers to linear combinations of high-dimensional vectors
 on the level of single neurons is the key factor responsible for increased expressive power of
-DMMs.
+DMMs compared to RNNs.
 
 However, that is where the similarities between Transformers and DMMs end so far. 
 Transformers is the leading state-of-the-art architecture
@@ -450,9 +450,9 @@ The initial training of Transformers tends to be quite costly, but their adaptat
 tends to be relatively inexpensive. So one can say that there is ``hidden meta-learning" which is built into
 this architecture: after initial pretraining the model's ability to learn new things increases greatly.
 
-These impressive capabilities were taken to the entirely new level with the introduction of GPT-3 and OpenAI API in
+These impressive capabilities were taken to an entirely new level with the introduction of GPT-3 and OpenAI API in
 May-June of this year\footnote{See, for example, my note at \href{https://www.cs.brandeis.edu/~bukatin/transformer\_revolution.html}{\tt https://www.cs.brandeis.edu/$\sim$bukatin/transformer\_revolution.html}}. I think the community is only at the beginning
-of the quest to understand why this architecture and especially its GPT-3 incarnation work so well\footnote{As of early August 2020}.
+of the quest to understand why this architecture and especially its GPT-3 incarnation work so well\footnote{As of early August 2020 when I am writing this}.
 
 It's quite promising at this point to consider interplay between attention-based models including Transformers and
 other approaches. Hybrid approaches of this kind can bring progress along multiple axes.
@@ -463,11 +463,10 @@ We started an exploration of connections between DMMs and Transformers in July 2
 along two dimensions:
 
 \begin{itemize}
-   \item Can what we know about DMMs shed some light on the remarkable properties of Transformers?
-   \item Can we incorporate key elements from Transformer architecture into a more flexible DMM setup, and by
-           doing so obtain interesting compact and low training cost models?
+   \item Could what we know about DMMs shed some light on the remarkable properties of Transformers?
+   \item What are the ways to incorporate key elements from Transformer architecture into a more flexible DMM setup, 
+           and, in particular, could we obtain interesting compact and low training cost models by 
+           incorporating attention-inspired and Transformer-inspired motives into DMMs?
 \end{itemize}
-
-[...] THIS SECTION IS IN PROGRESS [...]
 
 \end{document}
