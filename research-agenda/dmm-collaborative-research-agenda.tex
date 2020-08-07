@@ -40,7 +40,7 @@ Michael A. Bukatin
 
 
 \vspace{0.085in}
-August 6, 2020\footnote{Version 1.8. Version 1 (12-27-19) is at
+August 7, 2020\footnote{Version 1.9. Version 1 (12-27-19) is at
 \href{https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}
 {\tt https://github.com/anhinga/2019-design-notes/tree/master/research-agenda}}
 
@@ -341,7 +341,7 @@ There are interesting possible connections to be explored between this material 
 Beginnings of high-order domain theory for bicontinuous domains are present in both of the respective papers by Klaus Keimel and by Dexter Kozen\footnote{K.~Keimel. Bicontinuous domains and some old problems in domain theory. {\em Electronic Notes in Theoretical Computer Science}, {\bf 257}:35-54, 2009; D.~Kozen. Semantics of probabilistic programs. {\em Journal of Computer and System Sciences}, {\bf 22}(3):328-350,1981.}.
 
 However, no theory of domain equations for bicontinuous domains has emerged so far to the best of my knowledge.
-Even the question of the choice of morphisms in this context is non-trivial. Generally speaking, one can use either of the Scott topologies
+Even the question of the choice of morphisms in this context is non-trivial. Generally speaking, one can use each of the two Scott topologies
 on the bicontinuous domain in question for computations, and one can also use order-reversing involutions (Sections 4.5 and 4.14 of our GCAI 2015 paper).
 
 At the same time, on the level of operational semantics we have a rich theory of self-referential dataflow
@@ -414,14 +414,14 @@ and people who focus on DMMs will make this promise a reality.
 \section{DMMs and Transformers}
 
 There are extremely interesting connections between DMMs and Transformers and other
-attention-based models. We started to make rough sketches exploring those connection available,\footnote{\href
+attention-based models. We started to make rough sketches exploring those connection available\footnote{\href
 {https://github.com/anhinga/2020-notes/tree/master/attention-based-models}
-{\tt https://github.com/anhinga/2020-notes/tree/master/attention-based-models}} and
+{\tt https://github.com/anhinga/2020-notes/tree/master/attention-based-models}}, and
 we are going to add a brief summary here.
 
 Transformers are models with multi-layer attention mechanism which have been introduced 
-3 years ago.\footnote{A.~Vaswani et al., {\em Attention Is All You Need}, June 2017,
-\href{https://arxiv.org/abs/1706.03762}{\tt https://arxiv.org/abs/1706.03762}} Their
+3 years ago\footnote{A.~Vaswani et al., {\em Attention Is All You Need}, June 2017,
+\href{https://arxiv.org/abs/1706.03762}{\tt https://arxiv.org/abs/1706.03762}}. Their
 attention mechanism is based on linear combinations of high-dimensional
 vectors and the representations of those linear combinations via matrix multiplication.
 
@@ -444,18 +444,29 @@ in an unsupervised fashion for a task of predicting an excised word, these model
 in data and
 useful for this kind of prediction. In particular, it turns out that Transformers learn natural language grammar quite
 well in this scenario, as demonstrated both by surface performance of many models of this class and by
-investigation of their internal structure.\footnote{E.g. A.~Coenen et al., {\em Visualizing and Measuring the Geometry of BERT}, June 2019, \href{https://arxiv.org/abs/1906.02715}{\tt https://arxiv.org/abs/1906.02715}}
+investigation of their internal structure\footnote{E.g. A.~Coenen et al., {\em Visualizing and Measuring the Geometry of BERT}, June 2019, \href{https://arxiv.org/abs/1906.02715}{\tt https://arxiv.org/abs/1906.02715}}.
 
-The initial training of Transformers tend to be quite costly, but their adaptation (``fine-tuning") to new tasks
+The initial training of Transformers tends to be quite costly, but their adaptation (``fine-tuning") to new tasks
 tends to be relatively inexpensive. So one can say that there is ``hidden meta-learning" which is built into
-this architecture; after initial pretraining the model's ability to learn new things increases greatly.
+this architecture: after initial pretraining the model's ability to learn new things increases greatly.
 
 These impressive capabilities were taken to the entirely new level with the introduction of GPT-3 and OpenAI API in
-May-June of this year.\footnote{See my note at \href{https://www.cs.brandeis.edu/~bukatin/transformer\_revolution.html}{\tt https://www.cs.brandeis.edu/$\sim$bukatin/transformer\_revolution.html}} I think the community is only at the beginning
-of the quest to understand why this architecture and especially its GPT-3 incarnation work so well.
+May-June of this year\footnote{See, for example, my note at \href{https://www.cs.brandeis.edu/~bukatin/transformer\_revolution.html}{\tt https://www.cs.brandeis.edu/$\sim$bukatin/transformer\_revolution.html}}. I think the community is only at the beginning
+of the quest to understand why this architecture and especially its GPT-3 incarnation work so well\footnote{As of early August 2020}.
 
 It's quite promising at this point to consider interplay between attention-based models including Transformers and
-other approaches.
+other approaches. Hybrid approaches of this kind can bring progress along multiple axes.
+
+We started an exploration of connections between DMMs and Transformers in July 2020\footnote{\href
+{https://github.com/anhinga/2020-notes/tree/master/attention-based-models}
+{\tt https://github.com/anhinga/2020-notes/tree/master/attention-based-models}}. So far, we have been focusing this exploration
+along two dimensions:
+
+\begin{itemize}
+   \item Can what we know about DMMs shed some light on the remarkable properties of Transformers?
+   \item Can we incorporate key elements from Transformer architecture into a more flexible DMM setup, and by
+           doing so obtain interesting compact and low training cost models?
+\end{itemize}
 
 [...] THIS SECTION IS IN PROGRESS [...]
 
