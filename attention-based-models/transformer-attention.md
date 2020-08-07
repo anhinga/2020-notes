@@ -22,9 +22,9 @@ via _softmax_ and used to apply attention to value vectors.
 
 ---
 
-Another way to think about this kind of attention as of a particular form of "fuzzy associative memory".
+Another way to think about this kind of attention is to view it as a particular form of "fuzzy associative memory".
 
-(Again, parallels with biological attention is interesting, as there is a strong temptation to implement
-fuzzy associative memory in biology via oscillation and "holography".)
+(Again, parallels with biological attention are interesting, as there is a strong temptation to implement
+fuzzy associative memory in biology via oscillations and "holography".)
 
-Also, Christian Szegedy mentioned that this can be viewed as a relaxation of nearest neighbor lookup.
+Also, Christian Szegedy mentioned that this mechanism can be viewed as a relaxation of nearest neighbor lookup.
