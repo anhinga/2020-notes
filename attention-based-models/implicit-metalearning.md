@@ -10,7 +10,7 @@ tasks better (usually, with a fixed optimizer). This kind of metalearning is the
 lately (see, e.g. Model-Agnostic Meta-Learning, https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/ ).
 
 The fact that inexpensive transfer learning or inexpensive fine-tuning is possible in many machine learning models
-such as neural nets and transformers implies that **implicit metalearning** is happening during their training
+such as neural nets and transformers implies that **implicit metalearning on the level of model** is happening during their training
 or pretraining.
 
 We know that rich structure is formed within neural nets and transformers during training, and it is likely
@@ -22,8 +22,10 @@ of the paper is writing about this in the following thread:
 
 https://twitter.com/nottombrown/status/1266188687219384320
 
-`Language models are few shot learners! We find that larger models can often (but not always) perform NLP tasks given only natural language prompt and a few examples in the context. No fine-tuning.
+```
+Language models are few shot learners! We find that larger models can often (but not always) perform NLP tasks given only natural language prompt and a few examples in the context. No fine-tuning.
 
 This "in-context learning" happens entirely within the forward-pass on a single sequence. We study this in the zero-, one- and few-shot settings.
 
-One way to think about this: In-context learning is the inner loop of meta-learning, and unsupervised pre-training is the outer loop. To do well at pre-training, a language model needs to learn to quickly recognize patterns within the context of a given sequence.`
+One way to think about this: In-context learning is the inner loop of meta-learning, and unsupervised pre-training is the outer loop. To do well at pre-training, a language model needs to learn to quickly recognize patterns within the context of a given sequence.
+```
