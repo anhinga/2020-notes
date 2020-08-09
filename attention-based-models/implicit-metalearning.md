@@ -17,7 +17,7 @@ We know that rich structure is formed within neural nets and transformers during
 that that rich structure is what making the resulting model a convenient and efficient starting point for
 further learning.
 
-GPT-3 takes this **implicit metalearning** on a an entirely new level. Here is what one of the first authors
+GPT-3 takes this **implicit metalearning** to an entirely new level. Here is what one of the first authors
 of the paper is writing about this in the following thread:
 
 https://twitter.com/nottombrown/status/1266188687219384320
