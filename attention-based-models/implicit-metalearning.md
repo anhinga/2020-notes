@@ -13,12 +13,13 @@ The fact that inexpensive transfer learning or inexpensive fine-tuning is possib
 such as neural nets and transformers implies that **implicit metalearning on the level of model** is happening during their training
 or pretraining.
 
-We know that rich structure is formed within neural nets and transformers during training, and it is likely
+We know that rich structure is formed within neural nets and transformers during training, there were a lot
+of studies visualizing that structure, and it is likely
 that that rich structure is what making the resulting model a convenient and efficient starting point for
 further learning.
 
 GPT-3 takes this **implicit metalearning** to an entirely new level. Here is what one of the first authors
-of the paper is writing about this in the following thread:
+of the GPT-3 paper is writing about this in the following thread:
 
 https://twitter.com/nottombrown/status/1266188687219384320
 
