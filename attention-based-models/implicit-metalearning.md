@@ -16,3 +16,14 @@ or pretraining.
 We know that rich structure is formed within neural nets and transformers during training, and it is likely
 that that rich structure is what making the resulting model a convenient and efficient starting point for
 further learning.
+
+GPT-3 takes this **implicit metalearning** on a an entirely new level. Here is what one of the first authors
+of the paper is writing about this in the following thread:
+
+https://twitter.com/nottombrown/status/1266188687219384320
+
+`Language models are few shot learners! We find that larger models can often (but not always) perform NLP tasks given only natural language prompt and a few examples in the context. No fine-tuning.
+
+This "in-context learning" happens entirely within the forward-pass on a single sequence. We study this in the zero-, one- and few-shot settings.
+
+One way to think about this: In-context learning is the inner loop of meta-learning, and unsupervised pre-training is the outer loop. To do well at pre-training, a language model needs to learn to quickly recognize patterns within the context of a given sequence.`
