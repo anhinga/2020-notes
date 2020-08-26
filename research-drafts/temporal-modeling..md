@@ -1,10 +1,10 @@
 ## Temporal modeling
 
-Modeling of temporal evolution of objects, their properties, their structure, and their communities
+Modeling of temporal evolution of objects, their properties, their structure, and their communities.
 
 ### Streams of V-values
 
-One can use streams of tuples of conventional sparse tensors, but it is probably much more natural to use streams of V-values for generality and flexibility.
+One can use streams of tuples of conventional sparse tensors, but it is probably much more natural to use streams of V-values for better generality and flexibility.
 
 ### Transformers
 
