@@ -923,7 +923,96 @@ The most recent V-value at the {\footnotesize\tt :NetworkMatrix} output of\\ $y_
 
 \end{frame}
 
+\section{Interplay between domains and DMMs; open problems}
 
+\subsection{Interplay between domains and DMMs}
+
+\begin{frame}
+
+  \frametitle{Monotonic evolution of Warmus numbers by additions}
+
+Consider $x \sqsubseteq  (x+x_1) \sqsubseteq  (x+x_1+x_2) \sqsubseteq \dots $\\[2ex]
+
+Then every $x_i = [a_i, b_i]$ must be a pseudo-segment anti-approximating zero:\\[2ex]
+
+$[0,0] \sqsubseteq [a_i,b_i]$, that is $b_i \leq 0 \leq a_i$.\\[2ex]
+
+(\url{https://arxiv.org/abs/1610.00831}, Appendix A)
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{Rectifiers and quasi-metrics}
+
+It was typical to use sigmoid non-linearities as activation functions in neural nets, but a few years ago people discovered that
+{\bf ReLU} (rectified linear units) often work much better: $\relu(x) = max(0,x)$.\\[2ex]
+
+This is an integral of the Heaviside step function. Lack of smoothness at 0 does not seem to
+interfere with gradient methods, and otherwise it's nice when the derivatives are so simple.\\[2ex]
+
+Our standard quasi-metrics on reals are closely related to ReLU:\\[2ex]
+
+$q_1(x,y) = \relu(x-y) = q_2(y,x)$.\\[2ex]
+
+(\url{https://arxiv.org/abs/1610.00831}, Appendix B)
+
+\end{frame}
+
+\subsection{Open problems}
+
+\begin{frame}
+
+   \frametitle{Open Problems}
+
+   There are a bit more known connections between bicontinuous domains and DMM practice,
+   but there should be much more.\\[2ex]
+
+   Usually, we forget that programming with linear streams is related to bicontinuous domains,
+   and we just use vector spaces,
+   and we lose the potential hidden in the math of partial inconsistency.\\[2ex]
+
+   We do have some hints. E.g. training of {\bf generative adversarial networks} does resemble computations
+   with two Scott topologies and involution in spirit. One of the open problems is to investigate whether
+   this connection can be formalized.
+\end{frame}
+
+\begin{frame}
+
+   \frametitle{Open Problems}
+
+   Both Klaus Keimel and Dexter Kozen have beginnings of higher-order bicontinuous domain theory
+   in their respective papers, but bicontinuous domain equations are not done.\\[2ex]
+
+   Now we finally have a self-referential formalism on the level of operational semantics,
+   so this might provide guidance towards figuring out the adequate theory of domain
+   equations in this case.\\[4ex] 
+
+   A lot of open problems, theoretical and applied, are collected here:\\[2ex]
+
+   {\small M.~Bukatin.
+{\em Dataflow matrix machines: a collaborative research agenda.} August 2020.}
+\href{https://www.cs.brandeis.edu/~bukatin/dmm-collaborative-research-agenda.pdf}{\tt\scriptsize www.cs.brandeis.edu/$\sim$bukatin/dmm-collaborative-research-agenda.pdf}
+
+\end{frame}
+
+\begin{frame}
+
+   \frametitle{Open Problems}
+
+   Bringing together DMMs and Probabilistic Programming:
+   \begin{itemize}
+       \item Using negative probabilities and streams of signed samples in probabilistic programming;
+       \item Using DMMs as probabilistic programs;
+       \item Using DMMs as samplers.\\[4ex]
+   \end{itemize}
+
+   {\small M.~Bukatin.
+{\em Using streams of probabilistic samples in neural machines.} January 2020.}
+\href{https://github.com/anhinga/2020-notes/tree/master/research-notes}{\tt\scriptsize https://github.com/anhinga/2020-notes/tree/master/research-notes}
+
+
+\end{frame}
 
 \begin{frame}
 
