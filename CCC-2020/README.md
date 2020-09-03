@@ -19,3 +19,7 @@ Abstract:
 Published PDF:
 
 https://www.ualg.pt/sites/ualg.pt/files/u13559/ccc_2020_paper_6.pdf
+
+Published slides for my September 3, 2020 talk:
+
+http://cid.uni-trier.de/additional_media/Michael_Bukatin.pdf
