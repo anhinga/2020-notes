@@ -26,7 +26,7 @@ http://cid.uni-trier.de/additional_media/Michael_Bukatin.pdf
 
 ## Comment
 
-Historically, dataflow matrix machines emerged from our research on mathematical of partial inconsistency
+Historically, dataflow matrix machines emerged from our research on mathematics of partial inconsistency
 and vector semantics of programming languages based on bicontinuous domains with
 two Scott topologies (see Section 11 of https://arxiv.org/abs/1712.07447 for history of this).
 
