@@ -40,6 +40,8 @@ mathematics related to DMMs and to hopefully resume taking advantage of that pot
 (in particular, of two-directional monotonic computations with involution,
 of paraconsistent fuzzy logic, and so on).
 
+Open problems are mentioned on slides 31-34.
+
 One comment/question during the presentation was whether we actually tried to develop
 denotational semantics of DMMs based on bicontinuous domains (we have not, but it would
 be very interesting).
