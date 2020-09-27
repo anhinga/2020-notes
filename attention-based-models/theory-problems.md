@@ -1,4 +1,4 @@
-## Theory problems on DMMs as Transformers
+## Theory problems on DMMs as Transformer-like machines
 
 Consider June 2019 preprint here: https://github.com/anhinga/2019-design-notes/tree/master/research-notes
 
