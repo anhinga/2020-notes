@@ -59,3 +59,6 @@ Remarks on implicit metalearning in neural nets and Transformers:
 
 Selected less known papers on Transformers:
 [selected-papers.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/selected-papers.md).
+
+Theory problems on DMMs as Transformer-like machines:
+[theory-problems.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/theory-problems.md)
