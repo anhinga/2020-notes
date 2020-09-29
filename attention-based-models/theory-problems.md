@@ -26,7 +26,7 @@ and section 1.1 of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf )
 
 This is a good starting point. 
 
-If we figure the translation of this particular problem we solved in 2018 to in the "recurrent Transformers" set-up,
+If we figure out the translation of this particular problem we solved in 2018 to the "recurrent Transformers" set-up,
 we'll have a good feel for handling this "recurrent Transformers" set-up
 in general in a self-referential fashion.
 
