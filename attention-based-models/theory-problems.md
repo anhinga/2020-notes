@@ -19,7 +19,7 @@ Some of the key topics are:
  
 To narrow this down, we can focus on our 2018 experiments in modifying running DMMs on the fly:
 
-We edit a running network on the fly by sending it requests to edit itself (in particular, this enables live-coding, but this is also quite open-ended, since it enables a population of networks to tell each other to modify themselves (these networks can run independently from each other, or can be embedded into a single DMM); of course,  the receiving network doesn’t have to follow an incoming instruction to self-modify blindly, although in the most simple-minded case it would do so. 
+We edit a running network on the fly by sending it requests to edit itself. In particular, this enables live-coding, but this is also quite open-ended, since it enables a population of networks to tell each other to modify themselves (these networks can run independently from each other, or can be embedded into a single DMM); of course,  the receiving network doesn’t have to follow an incoming instruction to self-modify blindly, although in the most simple-minded case it would do so. 
 
 (See section 3 of https://www.cs.brandeis.edu/~bukatin/dmm-collaborative-research-agenda.pdf
 and section 1.1 of https://www.cs.brandeis.edu/~bukatin/dmm-notes-2018.pdf )
