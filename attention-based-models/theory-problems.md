@@ -34,6 +34,6 @@ The "recurrent Transformer" set-up has (generally speaking non-linear) generatio
 as a repeated work cycle. So, we stop hiding the changing network matrix within the current network output, and instead treating the two matrices in
 a symmetric fashion. 
 
-When a neural net is self-modifying, what people think about as "linear part of the work cycle of a neural machine" is actually quadratic; 
-in this set-up the quadratic aspect is more explicit: we generate two matrices and then multiply them. (The quadratic aspect of the self-referential
-situation was first pointed out to me by Andrey Radul a few years ago.) 
+When a neural net is self-modifying, what people think about as "linear part of the work cycle of a neural machine" is actually quadratic. 
+In the "recurrent Transformer" set-up the quadratic aspect is more explicit: we generate two matrices and then multiply them. 
+(The quadratic aspect of the self-referential situation was first pointed out to me by Andrey Radul a few years ago.) 
