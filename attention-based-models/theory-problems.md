@@ -31,8 +31,12 @@ we'll have a good feel for handling this "recurrent Transformers" set-up
 in general in a self-referential fashion.
 
 The "recurrent Transformer" set-up has (generally speaking non-linear) generation of a pair of matrices and their subsequent multiplication
-as a repeated work cycle. So, we stop hiding the changing network matrix within the current network output, and instead treating the two matrices in
-a symmetric fashion. 
+as a repeated work cycle. So, we stop hiding the changing network matrix within the current network output and treat the two matrices in
+a symmetric fashion instead. 
+
+(The lack of clear separation between the network matrix and the output of **F** (formerly known as "neurons") is both a conceptual challenge and
+an opportunity. The difference from the usual Transformer approach is that we don't want to have separate parameters within **F** managed by something external. Surely, there is enough room within those large matrices to handle all necessary parameters in a principled self-referential way.
+Gaining experience in doing so is the essence of this exercise.)
 
 When a neural net is self-modifying, what people think about as "linear part of the work cycle of a neural machine" is actually quadratic. 
 In the "recurrent Transformer" set-up the quadratic aspect is more explicit: we generate two matrices and then multiply them. 
