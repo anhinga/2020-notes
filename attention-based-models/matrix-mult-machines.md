@@ -22,9 +22,22 @@ unit generators (which is, in fact, an unrecognized form of neural networks).
 One of the most productive neurons in that setup is the neuron with 3 inputs and _sin(a*x+y)_ as an activation function.
 It allows various audiomodulations and such. We need to consider a matrix generalization of this neuron.
 
-It should be something like _F(AxX+Y)_, and since _A,X,Y_ are rectangular matrices of different dimensions (MxK,KxN,MxN),
+It should be something like _F(AxX+Y)_, and since _A,X,Y_ are rectangular matrices of different dimensions (MxK,KxN,MxN - all these numbers
+can be positive integers or infinity),
 it is probably optimal to also have 3 output matrices (this way, _F=Id_ case is naturally included).
 
 This way different _F_ and different compositions would provide different "generalized modulations" and such.
 
 ---
+
+On the other hand, generalizing from "universal differential equations" and from "differential programming",
+one can include any machine learning model into a "differentiable program" ("differential" might be an overkill here,
+at least it does not need to be more differentiable than ReLU, although continuity does help, so
+"continuous programming" might be the terminology I prefer as slightly less demanding).
+
+And, in particular, _F(AxX+Y)_ can be includes into an arbitrary program of this kind (e.g. into an
+arbitrary program suitable for Julia Flux). So, while the "pure scenario" would require us to
+assemble a neat **"matrix multiplication machine"** by composing various _F(AxX+Y)_ and _G(AxX+Y)_ and such,
+the "mixed pragmatic scenario" just allows us to incorporate _F(AxX+Y)_ operations into "differential
+programs" (e.g. Julia Flux programs, which can include other kinds of models and a rather general Julia code).
+
