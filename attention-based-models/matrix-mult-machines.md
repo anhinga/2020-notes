@@ -35,7 +35,7 @@ one can include any machine learning model into a "differentiable program" ("dif
 at least it does not need to be more differentiable than ReLU, although continuity does help, so
 "continuous programming" might be the terminology I prefer as slightly less demanding).
 
-And, in particular, _F(AxX+Y)_ can be includes into an arbitrary program of this kind (e.g. into an
+And, in particular, _F(AxX+Y)_ can be included into an arbitrary program of this kind (e.g. into an
 arbitrary program suitable for Julia Flux). So, while the "pure scenario" would require us to
 assemble a neat **"matrix multiplication machine"** by composing various _F(AxX+Y)_ and _G(AxX+Y)_ and such,
 the "mixed pragmatic scenario" just allows us to incorporate _F(AxX+Y)_ operations into "differential
