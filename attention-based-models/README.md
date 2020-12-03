@@ -62,3 +62,6 @@ Selected less known papers on Transformers:
 
 Theory problems on DMMs as Transformer-like machines:
 [theory-problems.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/theory-problems.md)
+
+Machines with matrix multiplication as a key element:
+[matrix-mult-machines.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/matrix-mult-machines.md)
