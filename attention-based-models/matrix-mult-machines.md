@@ -4,8 +4,8 @@ In [theory-problems.md](https://github.com/anhinga/2020-notes/blob/master/attent
 I consider the rewrite of DMMs in a form emphasizing duality between network matrix and another matrix which is
 a vector of vector data.
 
-This is a very interesting exercise, and, in particular, I have been working with machines which compose a bilinear operation
-of matrix multiplication and a general operation of generating a pair of matrices to be multiplied.
+This is a very interesting exercise, and, in particular, I have been working with machines which compose a _bilinear operation
+of matrix multiplication_ and a general operation of generating a pair of matrices to be multiplied afterwards.
 
 ---
 
@@ -21,3 +21,10 @@ unit generators (which is, in fact, an unrecognized form of neural networks).
 
 One of the most productive neurons in that setup is the neuron with 3 inputs and _sin(a*x+y)_ as an activation function.
 It allows various audiomodulations and such. We need to consider a matrix generalization of this neuron.
+
+It should be something like _F(AxX+Y)_, and since _A,X,Y_ are rectangular matrices of different dimensions (MxK,KxN,MxN),
+it is probably optimal to also have 3 output matrices (this way, _F=Id_ case is naturally included).
+
+This way different _F_ and different compositions would provide different "generalized modulations" and such.
+
+---
