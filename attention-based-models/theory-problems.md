@@ -41,3 +41,7 @@ Gaining experience in doing so is the essence of this exercise.)
 When a neural net is self-modifying, what people think about as "linear part of the work cycle of a neural machine" is actually quadratic. 
 In the "recurrent Transformer" set-up the quadratic aspect is more explicit: we generate two matrices and then multiply them. 
 (The quadratic aspect of the self-referential situation was first pointed out to me by Andrey Radul a few years ago.) 
+
+---
+
+This is continued here: [matrix-mult-machines.md](https://github.com/anhinga/2020-notes/blob/master/attention-based-models/matrix-mult-machines.md)
