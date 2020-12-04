@@ -24,7 +24,7 @@ It allows various audiomodulations and such. We need to consider a matrix genera
 
 It should be something like _F(AxX+Y)_, and since _A,X,Y_ are rectangular matrices of different dimensions (MxK,KxN,MxN - all these numbers
 can be positive integers or infinity),
-it is probably optimal to also have 3 output matrices (this way, _F=Id_ case is naturally included).
+it is probably optimal to also have 3 output matrices (this way, the case of _Id_ instead of _(A,X,Y) => F(AxX+Y)_ is naturally included).
 
 This way different _F_ and different compositions would provide different "generalized modulations" and such.
 
