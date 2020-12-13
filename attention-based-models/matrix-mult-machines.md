@@ -41,3 +41,14 @@ assemble a neat **"matrix multiplication machine"** by composing various _F(AxX+
 the "mixed pragmatic scenario" just allows us to incorporate _F(AxX+Y)_ operations into "differential
 programs" (e.g. Julia Flux programs, which can include other kinds of models and a rather general Julia code).
 
+---
+
+The difference here is that if fragments are embedded into a Julia program, then the program itself is fixed.
+
+Or, at least, the only meta-learning being immediately available would _generally speaking_ be along the lines of
+conventional program synthesis for discrete programs; that's unless the Julia program in question has some special
+structure allowing for better meta-learning. In particular, if what we code in Julia is all in the DMM style,
+and connectors are via linear combinations of linear streams, then continuous meta-learning is available
+(because this would then be just a DMM formalism, with its meta-learning via continuous changes of connectivity
+matrices).
+
