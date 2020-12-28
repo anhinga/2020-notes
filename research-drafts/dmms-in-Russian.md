@@ -40,7 +40,7 @@ https://en.wikipedia.org/wiki/VJing
 
 Каноническая статья на эту тему была опубликована в 2017-ом году: [Dataflow Matrix Machines and V-values: a Bridge between Programs and Neural Nets](https://arxiv.org/abs/1712.07447)
 
-Тогда же я записал 15-минутный доклад на видео:https://youtu.be/X6GCohQ-LHM
+Тогда же я записал 15-минутный доклад на видео: https://youtu.be/X6GCohQ-LHM
 
 В 2018-ом году появились слайды с красивыми картинками: https://researcher.watson.ibm.com/researcher/files/us-lmandel/aisys18-bukatin.pdf
 
