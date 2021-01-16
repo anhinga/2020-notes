@@ -15,13 +15,12 @@ From explorations of this setup which I performed in Oct-Nov 2020:
     Just concatenate them with unit matrices from the appropriate sides. This is important, because it enabled
     "including identity functions" into this setup (and we know these days that having **"identity as one of the
     available activation functions"** is often crucial).
-  * It makes sense to interpret monochrome images as matrices and multiply them. The results are
-    visually interesting, especially if one normalized rows of the left matrix and columns of the right one,
+  * It makes sense to **interpret monochrome images as matrices and multiply them**. The results are
+    visually interesting, especially if **one normalizes rows of the left matrix and columns of the right one**,
     and it is likely that there is plenty of hidden structure in the resulting matrices as well.
     This is a very promising line of exploration. I have now posted some initial Julia Jupyter notebooks
-    exploring this:
-    
-    
+    exploring this: https://github.com/anhinga/julia-notebooks/tree/main/images-as-matrices
+        
 ---
 
 It's Dec 3 now, and here I want to write down some more recent (Nov 28) considerations.
