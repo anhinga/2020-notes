@@ -4,6 +4,8 @@
 
 http://cid.uni-trier.de/ccc-2020-continuity-computability-constructivity-from-logic-to-algorithms-faro-portugal-august-31-september-4-2020/
 
+http://cid.uni-trier.de/ccc-2020-programme/
+
 ---
 
 Title:
@@ -18,7 +20,7 @@ Abstract:
 
 Published PDF:
 
-https://www.ualg.pt/sites/ualg.pt/files/u13559/ccc_2020_paper_6.pdf
+http://cid.uni-trier.de/additional_media/CCC-2020/CCC_2020_paper_6.pdf
 
 Published slides for my September 3, 2020 talk:
 
