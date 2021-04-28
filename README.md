@@ -10,6 +10,6 @@ https://github.com/anhinga/2019-design-notes
 
 This repository also contains an initial write-up on **Julia Flux and Zygote** written in February. It seems that Julia Flux/Zygote framework is a better fit for DMMs than more traditional machine learning frameworks, so I am trying to focus on Julia ecosystem at the moment.
 
-Python actually does have a sufficiently flexible machine learning framework these days as well: **JAX** (which its **pytree** protocol for handling tree-like containers), and there is an ecosystem built around JAX by DeepMind: https://deepmind.com/blog/article/using-jax-to-accelerate-our-research.
+Python actually does have a sufficiently flexible machine learning framework these days as well: **JAX** (with its **pytree** protocol for handling tree-like containers), and there is an ecosystem built around JAX by DeepMind: https://deepmind.com/blog/article/using-jax-to-accelerate-our-research.
 
 
