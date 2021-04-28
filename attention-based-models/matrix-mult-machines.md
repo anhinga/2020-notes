@@ -19,7 +19,9 @@ From explorations of this setup which I performed in Oct-Nov 2020:
     visually interesting, especially if **one normalizes rows of the left matrix and columns of the right one**,
     and it is likely that there is plenty of hidden structure in the resulting matrices as well.
     This is a very promising line of exploration. I have now posted some initial Julia Jupyter notebooks (Dec 2020-Jan 2020)
-    exploring this: https://github.com/anhinga/julia-notebooks/tree/main/images-as-matrices
+    exploring this: https://github.com/anhinga/julia-notebooks/tree/main/images-as-matrices (and now there are
+    further (Mar 2020-Apr 2020) explorations here and at
+    https://github.com/anhinga/julia-notebooks/tree/main/grimoire-team/variations)
         
 ---
 
