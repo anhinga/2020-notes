@@ -2,7 +2,7 @@
 
 The idea due to Dzmitry Bahdanau (Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio, "Neural Machine Translation by Jointly Learning to Align and Translate", https://arxiv.org/abs/1409.0473) is extremely simple. 
 
-There a number of "value vectors",
+There is a number of "value vectors",
 which are high-dimensional. A model computes relevances of each of those vectors,
 and transforms the vector of relevances to the vector of probabilities by applying _softmax_.
 
