@@ -46,7 +46,7 @@ https://en.wikipedia.org/wiki/VJing
 
 Тогда же я записал 15-минутный доклад на видео: https://youtu.be/X6GCohQ-LHM
 
-В 2018-ом году появились слайды с красивыми картинками: https://researcher.watson.ibm.com/researcher/files/us-lmandel/aisys18-bukatin.pdf
+В 2018-ом году появились слайды с красивыми картинками: [https://researcher.watson.ibm.com/researcher/files/us-lmandel/aisys18-bukatin.pdf](https://web.archive.org/web/20220305051310/https://researcher.watson.ibm.com/researcher/files/us-lmandel/aisys18-bukatin.pdf)
 
 В 2019-ом году появилась красивая "карта местности": https://anhinga.github.io/
 
