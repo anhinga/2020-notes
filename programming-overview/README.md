@@ -77,6 +77,6 @@ Not implemented, but discussed in multiple places (prompted by the desire to nat
     V-values, so that the overall space is either V tensor product by V or V tensor product by sum of V and R). There is
     some interesting fairly open-ended math here.    
 
-## Overview of DMM-related examples in code
+## Overview of DMM-related programming examples in code
 
 https://github.com/anhinga/2020-notes/blob/master/programming-overview/overview-of-examples-in-code.md
