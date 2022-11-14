@@ -87,3 +87,7 @@ https://github.com/anhinga/2019-python-drafts/tree/master/vispy/atparty-2019
 ### Prototyping small bits and pieces for the next generation of DMMs (Python and JavaScript)
 
 https://github.com/anhinga/2019-python-drafts
+
+### Initial program synthesis (DMM synthesis, circuit synthesis) experiments (Julia, May-September 2022)
+
+https://github.com/anhinga/DMM-synthesis-lab-journal/blob/main/history.md
