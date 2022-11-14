@@ -1,4 +1,4 @@
-# Overview of DMM-related examples in code
+# Overview of DMM-related programming examples in code
 
 ## Pre-DMM dataflow animations (Processing)
 
