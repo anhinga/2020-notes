@@ -4,6 +4,12 @@ This is a continuation of
 
 https://github.com/anhinga/2019-design-notes
 
+This is continued at
+
+https://github.com/anhinga/2021-notes
+
+---
+
 **2019 design notes** contain the initial design for the next generation of dataflow matrix machines, a couple of preprint-like research notes, a white paper, and an interdisciplinary collaborative research agenda.
 
 **The 2020-notes repository** contains:
